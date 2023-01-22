@@ -1,0 +1,50 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title> Cipher your code </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="row">
+    <h1>Cipher your code</h1>
+    <hr>
+    <div>
+        <button class="button button4" id="toggle" onclick="toggle()">Decrypt Message</button>
+        <button class="button button5" id="toggle2" onclick="toggle2()">Decrypt Affine Cipher</button>
+        <button class="button button7" id="toggle3" onclick="toggle3()">Decrypt Vigenere Cipher</button>
+    </div>
+</div>
+
+
+
+<div>
+
+    <div class="textarea1">
+        <b>Input</b><br>
+        <label for="input"></label><textarea id="input" cols="50" rows="20" placeholder="Write your message"></textarea>
+    </div>
+
+    <button class="button button1" id="convert" onclick="text2morse()">Convert to Morse Code</button>
+    <button class="button button2" id="convert2" onclick="text2affine()">Convert to Affine Cipher</button>
+    <button class="button button6" id="convert3" onclick="text2vigenere()">Convert to Vigenere Cipher</button>
+
+    <div class="textarea2">
+        <b>Output</b><br>
+        <label for="output"></label><textarea id="output" cols="50" rows="20"></textarea>
+    </div>
+    <button class="button button3" onclick="saveTextAsFile(output.value, 'download.txt')">Download file</button>
+
+    <input type="file" id="upload">
+    <script src="main.js"></script>
+
+
+
+</div>
+
+
+
+</body>
+</html>

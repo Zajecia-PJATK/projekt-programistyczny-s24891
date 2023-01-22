@@ -1,0 +1,141 @@
+body {
+    background-color: azure;
+}
+
+.row{
+    text-align: center;
+}
+
+hr {
+    background-color: aqua;
+}
+
+input::file-selector-button{
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+
+}
+
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position: fixed;
+    top: 350px;
+    left: 42%;
+    min-width: 255px;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    position: fixed;
+    top: 450px;
+    left: 42%;
+    padding: 15px 18px;
+    min-width: 255px;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid darkorange;
+    position: fixed;
+    left: 57%;
+    top: 650px;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button6 {
+    background-color: white;
+    color: black;
+    border: 2px solid indianred;
+    position: fixed;
+    top: 550px;
+    left: 42%;
+    padding: 15px 18px;
+    min-width: 255px;
+
+}
+
+.button7 {
+    background-color: white;
+    color: black;
+    border: 2px solid indianred;
+}
+
+.button1:hover{
+    background-color: #4CAF50;
+}
+
+.button2:hover{
+    background-color: #008CBA;
+}
+
+.button4:hover{
+    background-color: #4CAF50;
+}
+
+.button5:hover{
+    background-color: #008CBA;
+}
+
+.button6:hover{
+    background-color: indianred;
+}
+.button7:hover {
+    background-color: indianred;
+}
+
+.button3:hover{
+    background-color: darkorange;
+}
+
+.textarea1{
+    position: fixed;
+    left: 20%;
+    top: 300px;
+}
+
+.textarea2{
+    position: fixed;
+    left: 57%;
+    top: 300px;
+}
+
+input[type='file'] {
+    position: fixed;
+    left: 20%;
+    top: 650px;
+    color: rgba(0, 0, 0, 0)
+}
